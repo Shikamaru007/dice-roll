@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: poppins, sans-serif;
+}
+#container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+h1 {
+    margin-bottom: 2rem;
+}
+input[type=number]{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    width: 150px;
+    text-align: center;
+    margin: 0 1rem;
+}
+button {
+    font-size: 1.3rem;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 126, 79);
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 126, 79, 0.9);
+}
+button:active{
+    background-color: rgba(255, 126, 79, 0.7);
+}
+#diceResult{
+    margin: 1rem;
+}
+#diceImages img{
+    width: 4em;
+    margin: .1em;
+}
